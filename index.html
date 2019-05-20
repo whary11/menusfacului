@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <base href="./">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, user-scalable=no">
   <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
   <meta name="author" content="Łukasz Holeczek">
   <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
   <title>Menús Fácil</title>
   <!-- Icons-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <!-- <link href="node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
   <link href="node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
   <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -18,19 +20,24 @@
   <!-- Main styles for this application-->
   <link href="css/style.css" rel="stylesheet">
   <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+  <style>
+    .text-black{
+      color:black !important;
+    }
+  </style>
 </head>
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
   <header class="app-header navbar">
     <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars text-black"></i>
     </button>
     <a class="navbar-brand" href="#">
       <img class="navbar-brand-full" src="img/brand/logo.svg" width="150" height="auto" alt="Logo Menús Fácil">
       <img class="navbar-brand-minimized" src="img/brand/sygnet.svg" width="40" height="40" alt="Logo Menús Fácil">
     </a>
     <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars text-black"></i>
     </button>
     <ul class="nav navbar-nav d-md-down-none">
       <li class="nav-item px-3">
@@ -46,10 +53,10 @@
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item d-md-down-none">
         <a class="nav-link" href="#">
-          <i class="icon-bell"></i>
+          <i class="fas fa-bell" style="font-size: 20px;"></i>
           <span class="badge badge-pill badge-danger">1</span>
         </a>
-      </li>     
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
           <img class="img-avatar" src="img/avatars/6.jpg" alt="Avatar Usuario MF">
@@ -59,7 +66,7 @@
             <strong>Cuenta</strong>
           </div>
           <a class="dropdown-item" href="#">
-            <i class="fa fa-bell-o"></i> Datos del negocio            
+            <i class="fa fa-bell-o"></i> Datos del negocio
           </a>
           <a class="dropdown-item" href="#">
             <i class="fa fa-envelope-o"></i> Personalizar aplicativo
@@ -69,17 +76,17 @@
           </a>
           <a class="dropdown-item" href="#">
             <i class="fa fa-comments"></i> Estado de la suscripción
-          </a>          
+          </a>
           <a class="dropdown-item" href="#">
             <i class="fa fa-lock"></i> Salir</a>
         </div>
       </li>
     </ul>
     <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars"></i>
     </button>
     <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars text-black"></i>
     </button>
   </header>
   <div class="app-body">
@@ -88,7 +95,7 @@
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link" href="index.html">
-                <i class="nav-icon fas fa-home"></i>  Dashboard              
+              <i class="nav-icon fas fa-home"></i> Dashboard
             </a>
           </li>
           <li class="nav-title">Gestor de Menús</li>
@@ -98,45 +105,45 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="typography.html">
-                <i class="nav-icon fas fa-plus-circle"></i> Crear Menú</a>
+              <i class="nav-icon fas fa-plus-circle"></i> Crear Menú</a>
           </li>
           <li class="nav-title">Ordenes y Pedidos</li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-                <i class="nav-icon fas fa-angle-double-down"></i> Ordenes Recibidas</a>
+              <i class="nav-icon fas fa-angle-double-down"></i> Ordenes Recibidas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-                <i class="nav-icon fas fa-history"></i> Ordenes Pendientes</a>
+              <i class="nav-icon fas fa-history"></i> Ordenes Pendientes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="charts.html">
-                <i class="nav-icon fas fa-check-circle"></i> Ordenes Completadas</a>
-          </li>                  
+              <i class="nav-icon fas fa-check-circle"></i> Ordenes Completadas</a>
+          </li>
           <li class="divider"></li>
           <li class="nav-title">Sucursales</li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-                <i class="nav-icon fas fa-clone"></i> Ver Sucursales</a>            
+              <i class="nav-icon fas fa-clone"></i> Ver Sucursales</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">
-                  <i class="nav-icon fas fa-plus-circle"></i> Agregar Sucursal</a>            
+            <a class="nav-link" href="#">
+              <i class="nav-icon fas fa-plus-circle"></i> Agregar Sucursal</a>
           </li>
           <li class="divider"></li>
           <li class="nav-title">Usuarios</li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-                <i class="nav-icon fas fa-user-plus"></i> Agregar Usuario</a>            
+              <i class="nav-icon fas fa-user-plus"></i> Agregar Usuario</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">
-                  <i class="nav-icon fas fa-user-shield"></i> Roles de Usario</a>            
-          </li>          
+            <a class="nav-link" href="#">
+              <i class="nav-icon fas fa-user-shield"></i> Roles de Usario</a>
+          </li>
           <li class="nav-item mt-auto">
             <a class="nav-link nav-link-success" href="#" target="_top">
               <i class="nav-icon icon-cloud-download"></i> Cerrar Sesión</a>
-          </li>          
+          </li>
         </ul>
       </nav>
       <button class="sidebar-minimizer brand-minimizer" type="button"></button>
@@ -151,11 +158,11 @@
         <li class="breadcrumb-item active">Dashboard</li>
         <!-- Breadcrumb Menu-->
         <li class="breadcrumb-menu d-md-down-none">
-          <div class="btn-group" role="group" aria-label="Button group">            
+          <div class="btn-group" role="group" aria-label="Button group">
             <a class="btn" href="#">
-              <i class="icon-graph"></i>  Métricas</a>
+              <i class="fas fa-project-diagram"></i>  Métricas</a>
             <a class="btn" href="#">
-              <i class="icon-settings"></i>  Configuración del negocio</a>
+              <i class="fas fa-cog"></i>  Configuración del negocio</a>
           </div>
         </li>
       </ol>
@@ -168,7 +175,7 @@
                   <div class="btn-group float-right">
                     <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-settings"></i>
+                      <i class="fas fa-cog"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                       <a class="dropdown-item" href="#">Crear Menú</a>
@@ -191,7 +198,7 @@
                   <div class="btn-group float-right">
                     <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-settings"></i>
+                      <i class="fas fa-cog"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                       <a class="dropdown-item" href="#">Ordenes Recibidas</a>
@@ -214,7 +221,7 @@
                   <div class="btn-group float-right">
                     <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-settings"></i>
+                      <i class="fas fa-cog"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                       <a class="dropdown-item" href="#">Ventas Hoy</a>
@@ -237,7 +244,7 @@
                   <div class="btn-group float-right">
                     <button class="btn btn-transparent dropdown-toggle p-0" type="button" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-settings"></i>
+                      <i class="fas fa-cog"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                       <a class="dropdown-item" href="#">Agregar Sucrusal</a>
@@ -256,156 +263,156 @@
             <!-- /.col-->
           </div>
           <!-- /.row-->
-          
+
           <div class="row">
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header">Clientes, órdenes y pedidos</div>
                 <div class="card-body">
-                    <table class="table table-responsive-sm table-hover table-outline mb-0">
-                        <thead class="thead-light">
-                          <tr>
-                            <th class="text-center">Cliente</th>
-                            <th class="text-center">Orden/Pedido</th>
-                            <th class="text-center">Teléfono</th>
-                            <th class="text-center">Dirección</th>
-                            <th class="text-center">Estado de pago</th>
-                            <th class="text-center">Estado de Orden</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                              <td>
-                                  <div>Yiorgos Avraamu</div>
-                                </td>
-                            <td>
-                              <div>Menú 1 - Cantidad 1</div>
-                            </td>
-                            <td>
-                                <div>+573168785601</div>
-                            </td>
-                            <td>
-                                <div>Calle 2 No. 91C-85</div>
-                            </td>
-                            <td>
-                                <div>Pago pendiente</div>
-                            </td>
-                            <td>
-                              <div class="small text-muted">Orden Pendiente</div>
-                              <strong>Recibida hace 10 minutos</strong>
-                            </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <div>Yiorgos Avraamu</div>
-                                </td>
-                            <td>
-                              <div>Menú 1 - Cantidad 1</div>
-                            </td>
-                            <td>
-                                <div>+573168785601</div>
-                            </td>
-                            <td>
-                                <div>Calle 2 No. 91C-85</div>
-                            </td>
-                            <td>
-                                <div>Pago pendiente</div>
-                            </td>
-                            <td>
-                              <div class="small text-muted">Orden Pendiente</div>
-                              <strong>Recibida hace 10 minutos</strong>
-                            </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <div>Yiorgos Avraamu</div>
-                                </td>
-                            <td>
-                              <div>Menú 1 - Cantidad 1</div>
-                            </td>
-                            <td>
-                                <div>+573168785601</div>
-                            </td>
-                            <td>
-                                <div>Calle 2 No. 91C-85</div>
-                            </td>
-                            <td>
-                                <div>Pago pendiente</div>
-                            </td>
-                            <td>
-                              <div class="small text-muted">Orden Pendiente</div>
-                              <strong>Recibida hace 10 minutos</strong>
-                            </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <div>Yiorgos Avraamu</div>
-                                </td>
-                            <td>
-                              <div>Menú 1 - Cantidad 1</div>
-                            </td>
-                            <td>
-                                <div>+573168785601</div>
-                            </td>
-                            <td>
-                                <div>Calle 2 No. 91C-85</div>
-                            </td>
-                            <td>
-                                <div>Pago pendiente</div>
-                            </td>
-                            <td>
-                              <div class="small text-muted">Orden Pendiente</div>
-                              <strong>Recibida hace 10 minutos</strong>
-                            </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <div>Yiorgos Avraamu</div>
-                                </td>
-                            <td>
-                              <div>Menú 1 - Cantidad 1</div>
-                            </td>
-                            <td>
-                                <div>+573168785601</div>
-                            </td>
-                            <td>
-                                <div>Calle 2 No. 91C-85</div>
-                            </td>
-                            <td>
-                                <div>Pago pendiente</div>
-                            </td>
-                            <td>
-                              <div class="small text-muted">Orden Pendiente</div>
-                              <strong>Recibida hace 10 minutos</strong>
-                            </td>
-                          </tr>
-                          <tr>
-                              <td>
-                                  <div>Yiorgos Avraamu</div>
-                                </td>
-                            <td>
-                              <div>Menú 1 - Cantidad 1</div>
-                            </td>
-                            <td>
-                                <div>+573168785601</div>
-                            </td>
-                            <td>
-                                <div>Calle 2 No. 91C-85</div>
-                            </td>
-                            <td>
-                                <div>Pago pendiente</div>
-                            </td>
-                            <td>
-                              <div class="small text-muted">Orden Pendiente</div>
-                              <strong>Recibida hace 10 minutos</strong>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>                    
-                  
+                  <table class="table table-responsive-sm table-hover table-outline mb-0">
+                    <thead class="thead-light">
+                      <tr>
+                        <th class="text-center">Cliente</th>
+                        <th class="text-center">Orden/Pedido</th>
+                        <th class="text-center">Teléfono</th>
+                        <th class="text-center">Dirección</th>
+                        <th class="text-center">Estado de pago</th>
+                        <th class="text-center">Estado de Orden</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div>Yiorgos Avraamu</div>
+                        </td>
+                        <td>
+                          <div>Menú 1 - Cantidad 1</div>
+                        </td>
+                        <td>
+                          <div>+573168785601</div>
+                        </td>
+                        <td>
+                          <div>Calle 2 No. 91C-85</div>
+                        </td>
+                        <td>
+                          <div>Pago pendiente</div>
+                        </td>
+                        <td>
+                          <div class="small text-muted">Orden Pendiente</div>
+                          <strong>Recibida hace 10 minutos</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div>Yiorgos Avraamu</div>
+                        </td>
+                        <td>
+                          <div>Menú 1 - Cantidad 1</div>
+                        </td>
+                        <td>
+                          <div>+573168785601</div>
+                        </td>
+                        <td>
+                          <div>Calle 2 No. 91C-85</div>
+                        </td>
+                        <td>
+                          <div>Pago pendiente</div>
+                        </td>
+                        <td>
+                          <div class="small text-muted">Orden Pendiente</div>
+                          <strong>Recibida hace 10 minutos</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div>Yiorgos Avraamu</div>
+                        </td>
+                        <td>
+                          <div>Menú 1 - Cantidad 1</div>
+                        </td>
+                        <td>
+                          <div>+573168785601</div>
+                        </td>
+                        <td>
+                          <div>Calle 2 No. 91C-85</div>
+                        </td>
+                        <td>
+                          <div>Pago pendiente</div>
+                        </td>
+                        <td>
+                          <div class="small text-muted">Orden Pendiente</div>
+                          <strong>Recibida hace 10 minutos</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div>Yiorgos Avraamu</div>
+                        </td>
+                        <td>
+                          <div>Menú 1 - Cantidad 1</div>
+                        </td>
+                        <td>
+                          <div>+573168785601</div>
+                        </td>
+                        <td>
+                          <div>Calle 2 No. 91C-85</div>
+                        </td>
+                        <td>
+                          <div>Pago pendiente</div>
+                        </td>
+                        <td>
+                          <div class="small text-muted">Orden Pendiente</div>
+                          <strong>Recibida hace 10 minutos</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div>Yiorgos Avraamu</div>
+                        </td>
+                        <td>
+                          <div>Menú 1 - Cantidad 1</div>
+                        </td>
+                        <td>
+                          <div>+573168785601</div>
+                        </td>
+                        <td>
+                          <div>Calle 2 No. 91C-85</div>
+                        </td>
+                        <td>
+                          <div>Pago pendiente</div>
+                        </td>
+                        <td>
+                          <div class="small text-muted">Orden Pendiente</div>
+                          <strong>Recibida hace 10 minutos</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div>Yiorgos Avraamu</div>
+                        </td>
+                        <td>
+                          <div>Menú 1 - Cantidad 1</div>
+                        </td>
+                        <td>
+                          <div>+573168785601</div>
+                        </td>
+                        <td>
+                          <div>Calle 2 No. 91C-85</div>
+                        </td>
+                        <td>
+                          <div>Pago pendiente</div>
+                        </td>
+                        <td>
+                          <div class="small text-muted">Orden Pendiente</div>
+                          <strong>Recibida hace 10 minutos</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
                   <!-- /.row-->
                   <br>
-                  
+
                 </div>
               </div>
             </div>
@@ -414,132 +421,140 @@
           <!-- /.row-->
           <div class="card">
             <div class="card-header">Exportar/Imprimir</div>
-              <div class="card-body">
-                  <div class="row">              
-                      <div class="col-6 col-lg-3">
-                        <div class="card">
-                          <div class="card-body p-3 d-flex align-items-center">
-                            <i class="fa fa-cogs bg-primary p-3 font-2xl mr-3"></i>
-                            <div>
-                              <div class="text-value-sm text-primary">Ordenes<br>Pendientes</div>
+            <div class="card-body">
+              <div class="row">
+                  <div class="col-6 col-lg-3">
+                      <div class="card">
+                        <div class="card-body d-flex align-items-center row pb-0">
+                          <div class="col-md-4 mb-3">
+                            <i class="fa fa-cogs bg-primary p-3 font-2xl"></i>
+                          </div>
+                            <div class="text-value-sm text-primary col-md-8">
+                              <p>Ordenes Pendientes</p> 
                             </div>
-                          </div>
-                          <div class="card-footer px-3 py-2">
-                            <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                              <span class="small font-weight-bold">Exportar PDF</span>
-                              <i class="fa fa-angle-right"></i>
-                            </a>
-                            <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                <span class="small font-weight-bold">Exportar Excel</span>
-                                <i class="fa fa-angle-right"></i>
-                              </a>
-                          </div>
+                        </div>
+                        <div class="card-footer px-3 pt-2">
+                          <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                            <span class="small font-weight-bold">Exportar PDF</span>
+                            <i class="fa fa-angle-right"></i>
+                          </a>
+                          <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                            <span class="small font-weight-bold">Exportar Excel</span>
+                            <i class="fa fa-angle-right"></i>
+                          </a>
                         </div>
                       </div>
-                      <!-- /.col-->
-                      <div class="col-6 col-lg-3">
-                        <div class="card">
-                            <div class="card-body p-3 d-flex align-items-center">
-                                <i class="fa fa-cogs bg-info p-3 font-2xl mr-3"></i>
-                                <div>
-                                  <div class="text-value-sm text-primary">Ordenes<br>Completadas</div>
-                                </div>
-                              </div>
-                              <div class="card-footer px-3 py-2">
-                                  <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                    <span class="small font-weight-bold">Exportar PDF</span>
-                                    <i class="fa fa-angle-right"></i>
-                                  </a>
-                                  <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                      <span class="small font-weight-bold">Exportar Excel</span>
-                                      <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                        </div>
-                      </div>
-                      <!-- /.col-->
-                      <div class="col-6 col-lg-3">
-                        <div class="card">
-                            <div class="card-body p-3 d-flex align-items-center">
-                                <i class="fa fa-cogs bg-warning p-3 font-2xl mr-3"></i>
-                                <div>
-                                  <div class="text-value-sm text-primary">Menús<br>Creados</div>
-                                </div>
-                              </div>
-                              <div class="card-footer px-3 py-2">
-                                  <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                    <span class="small font-weight-bold">Exportar PDF</span>
-                                    <i class="fa fa-angle-right"></i>
-                                  </a>
-                                  <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                      <span class="small font-weight-bold">Exportar Excel</span>
-                                      <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                        </div>
-                      </div>
-                      <!-- /.col-->
-                      <div class="col-6 col-lg-3">
-                        <div class="card">
-                            <div class="card-body p-3 d-flex align-items-center">
-                                <i class="fa fa-cogs bg-danger p-3 font-2xl mr-3"></i>
-                                <div>
-                                  <div class="text-value-sm text-primary">Menús<br>Disponibles</div>
-                                </div>
-                              </div>
-                              <div class="card-footer px-3 py-2">
-                                  <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                    <span class="small font-weight-bold">Exportar PDF</span>
-                                    <i class="fa fa-angle-right"></i>
-                                  </a>
-                                  <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
-                                      <span class="small font-weight-bold">Exportar Excel</span>
-                                      <i class="fa fa-angle-right"></i>
-                                    </a>
-                                </div>
-                        </div>
-                      </div>
-                      <!-- /.col-->
                     </div>
-                    <!-- /.row-->
+                <!-- /.col-->
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body d-flex align-items-center row pb-0">
+                        <div class="col-md-4 mb-3">
+                          <i class="fa fa-cogs bg-info p-3 font-2xl"></i>
+                        </div>
+                          <div class="text-value-sm text-primary col-md-8">
+                            <p>Ordenes Completadas</p> 
+                          </div>
+                      </div>
+                      <div class="card-footer px-3 pt-2">
+                        <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                          <span class="small font-weight-bold">Exportar PDF</span>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                        <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                          <span class="small font-weight-bold">Exportar Excel</span>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                <!-- /.col-->
+                <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-body d-flex align-items-center row pb-0">
+                        <div class="col-md-4 mb-3">
+                          <i class="fa fa-cogs bg-warning p-3 font-2xl"></i>
+                        </div>
+                          <div class="text-value-sm text-primary col-md-8">
+                            <p>Menús Creados</p> 
+                          </div>
+                      </div>
+                      <div class="card-footer px-3 pt-1">
+                        <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                          <span class="small font-weight-bold">Exportar PDF</span>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                        <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                          <span class="small font-weight-bold">Exportar Excel</span>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                <!-- /.col-->
+                <div class="col-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body d-flex align-items-center row pb-0">
+                      <div class="col-md-4 mb-3">
+                        <i class="fa fa-cogs bg-danger p-3 font-2xl"></i>
+                      </div>
+                        <div class="text-value-sm text-primary col-md-8">
+                          <p>Menús Disponibles</p> 
+                        </div>
+                    </div>
+                    <div class="card-footer px-3 pt-1">
+                      <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                        <span class="small font-weight-bold">Exportar PDF</span>
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                      <a class="btn-block text-muted d-flex justify-content-between align-items-center" href="#">
+                        <span class="small font-weight-bold">Exportar Excel</span>
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </div>
                 </div>
+                <!-- /.col-->
               </div>
-              </div>                
+              <!-- /.row-->
+            </div>
+          </div>
         </div>
       </div>
-    </main>
-    <aside class="aside-menu">      
-      <!-- Tab panes-->
-      <div class="tab-content">
-        <div class="tab-pane active" id="timeline" role="tabpanel">
-          <div class="list-group list-group-accent">
-            <div
-              class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
-              Clientes Frecuentes</div>
-            <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
-              <div>
-                <strong>Lucas Moore</strong>
-              </div>
-              <small class="text-muted mr-3">
-                <i class="icon-calendar"></i>  10 Pedidos</small>
-                <div>
-                    <strong>Megan Smith</strong>
-                  </div>
-                  <small class="text-muted mr-3">
-                    <i class="icon-calendar"></i>  15 Pedidos</small>                
-            </div>            
-          </div>
-        </div>      
-        
-      </div>
-    </aside>
   </div>
-  <footer class="app-footer">
-    <div>
+  </main>
+  <aside class="aside-menu">
+    <!-- Tab panes-->
+    <div class="tab-content">
+      <div class="tab-pane active" id="timeline" role="tabpanel">
+        <div class="list-group list-group-accent">
+          <div
+            class="list-group-item list-group-item-accent-secondary bg-light text-center font-weight-bold text-muted text-uppercase small">
+            Clientes Frecuentes</div>
+          <div class="list-group-item list-group-item-accent-warning list-group-item-divider">
+            <div>
+              <strong>Lucas Moore</strong>
+            </div>
+            <small class="text-muted mr-3">
+              <i class="icon-calendar"></i>  10 Pedidos</small>
+            <div>
+              <strong>Megan Smith</strong>
+            </div>
+            <small class="text-muted mr-3">
+              <i class="icon-calendar"></i>  15 Pedidos</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+  </div>
+  <footer class="app-footer row">
+    <div class="col-md-6 text-center">
       <a href="https://coreui.io">Menús Fácil</a>
       <span>&copy; 2019 Todos los derechos reservados</span>
     </div>
-    <div class="ml-auto">
+    <div class="col-md-6 text-center">
       <span>Desarrollado por</span>
       <a href="https://coreui.io">Agencia Web Bogotá</a>
     </div>
