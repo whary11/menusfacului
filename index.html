@@ -13,17 +13,16 @@
   <!-- Icons-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  <!-- <link href="node_modules/@coreui/icons/css/coreui-icons.min.css" rel="stylesheet">
-  <link href="node_modules/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
-  <link href="node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="node_modules/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
-  <!-- Main styles for this application-->
   <link href="css/style.css" rel="stylesheet">
   <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
   <style>
     .text-black {
       color: black !important;
     }
+    /* Color de fondo en la barra lateral */
+      .sidebar{
+        background-color: #2f353e !important;
+      }
   </style>
 </head>
 
@@ -66,13 +65,13 @@
             <strong>Cuenta</strong>
           </div>
           <a class="dropdown-item" href="#">
-            <i class="fa fa-bell-o"></i> Datos del negocio
+            <i class="fas fa-user-alt"></i> Datos del negocio
           </a>
           <a class="dropdown-item" href="#">
-            <i class="fa fa-envelope-o"></i> Personalizar aplicativo
+            <i class="fas fa-cogs"></i> Personalizar aplicativo
           </a>
           <a class="dropdown-item" href="#">
-            <i class="fa fa-tasks"></i> Facturación
+            <i class="fas fa-money-check-alt"></i> Facturación
           </a>
           <a class="dropdown-item" href="#">
             <i class="fa fa-comments"></i> Estado de la suscripción
@@ -141,9 +140,10 @@
               <i class="nav-icon fas fa-user-shield"></i> Roles de Usario</a>
           </li>
           <li class="nav-item mt-auto">
-            <a class="nav-link nav-link-success" href="#" target="_top">
-              <i class="nav-icon icon-cloud-download"></i> Cerrar Sesión</a>
+            <a class="nav-link nav-link-danger" href="#" target="_top">
+              <i class="nav-icon fas fa-sign-out-alt"></i> Cerrar Sesión</a>
           </li>
+          
         </ul>
       </nav>
       <button class="sidebar-minimizer brand-minimizer" type="button"></button>
